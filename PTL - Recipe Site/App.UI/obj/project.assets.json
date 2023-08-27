@@ -951,6 +951,32 @@
             "rid": "win"
           }
         }
+      },
+      "App.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "App.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/App.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.BLL.dll": {}
+        }
+      },
+      "App.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
+        },
+        "compile": {
+          "bin/placeholder/App.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.DAL.dll": {}
+        }
       }
     }
   },
@@ -2442,10 +2468,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "App.BLL/1.0.0": {
+      "type": "project",
+      "path": "../App.BLL/App.BLL.csproj",
+      "msbuildProject": "../App.BLL/App.BLL.csproj"
+    },
+    "App.DAL/1.0.0": {
+      "type": "project",
+      "path": "../App.DAL/App.DAL.csproj",
+      "msbuildProject": "../App.DAL/App.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "App.BLL >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.8",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.8",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.8",
@@ -2459,11 +2496,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL - Recipe Site\\App.UI\\App.UI.csproj",
+      "projectUniqueName": "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL-Recipes\\PTL---Recipes-Site\\PTL - Recipe Site\\App.UI\\App.UI.csproj",
       "projectName": "App.UI",
-      "projectPath": "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL - Recipe Site\\App.UI\\App.UI.csproj",
+      "projectPath": "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL-Recipes\\PTL---Recipes-Site\\PTL - Recipe Site\\App.UI\\App.UI.csproj",
       "packagesPath": "C:\\Users\\Massimo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL - Recipe Site\\App.UI\\obj\\",
+      "outputPath": "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL-Recipes\\PTL---Recipes-Site\\PTL - Recipe Site\\App.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Massimo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2479,7 +2516,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL-Recipes\\PTL---Recipes-Site\\PTL - Recipe Site\\App.BLL\\App.BLL.csproj": {
+              "projectPath": "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL-Recipes\\PTL---Recipes-Site\\PTL - Recipe Site\\App.BLL\\App.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

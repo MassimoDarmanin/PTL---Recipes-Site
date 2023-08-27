@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A4EU5U+tV2nh4XScirev+RU+Spo48fpooqgBE784/5NUFTZ/yHSYiIHM4JM9COBG+ChpLgGB9z3a2yy3bqMX8A==",
+  "dgSpecHash": "yslsZInR40S9iC8V5bvsfGRTVzRW1TAPu9+7V7oHcDlk7JP+AKrjUjK2w4paQ7R6HnuRuwiTIbELOnNAuthLmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL - Recipe Site\\App.UI\\App.UI.csproj",
+  "projectFilePath": "C:\\Users\\Massimo\\Documents\\4_XizobQedTamelProjects\\VS_MVC\\PTL-Recipes\\PTL---Recipes-Site\\PTL - Recipe Site\\App.UI\\App.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Massimo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Massimo\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.8\\microsoft.aspnetcore.cryptography.internal.6.0.8.nupkg.sha512",
